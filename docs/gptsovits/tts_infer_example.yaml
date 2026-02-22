@@ -1,0 +1,8 @@
+custom:
+  bert_base_path: GPT_SoVITS/pretrained_models/chinese-roberta-wwm-ext-large
+  cnhuhbert_base_path: GPT_SoVITS/pretrained_models/chinese-hubert-base
+  device: cuda        # 必须 cuda，使用 CPU 极慢
+  is_half: false      # v3 模型必须 false，true 会静默回退到 CPU
+  t2s_weights_path: GPT_SoVITS/pretrained_models/s1v3.ckpt
+  version: v3         # 注意：GPT-SoVITS 启动时会自动重写此字段，无需在意
+  vits_weights_path: GPT_SoVITS/pretrained_models/s2Gv3.pth
