@@ -1,3 +1,13 @@
+# lue_chinese
+
+lue 中文语音定制版。改了一下小问题（原版正则白名单里没有中文标点），并加入了 GPT-SoVITS 声音克隆支持，可以用自己喜欢的声音朗读书籍。默认使用 **Edge TTS**（微软云端，毫秒级响应，无需 GPU）。
+
+**中文部署文档**：[SETUP_CN.md](SETUP_CN.md)
+
+原仓库：https://github.com/superstarryeyes/lue — 感谢 superstarryeyes
+
+---
+
 <div align="center">
 
 <img src="https://github.com/superstarryeyes/lue/blob/main/images/lue-icon.png?raw=true" alt="Lue Icon" width="35%" />
